@@ -24,7 +24,8 @@ class TiTeThRiaPhiS(DarkGreyModel):
     X = {
         'Ph': df['Boiler Power Output [kW]'].values,
         'Ta': df['Outside Air Temperature [˚C]'].values,
-        'Th': df['Heating Circuit Temperature [˚C]'].values
+        'Th': df['Heating Circuit Temperature [˚C]'].values,
+        'PhiS': df['Sun irradiance in W/m^2'].values
     }
 
     # parameters to be fitted
