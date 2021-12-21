@@ -3,9 +3,9 @@ import numpy as np
 from darkgreybox.base_model import DarkGreyModel, DarkGreyModelResult
 
 
-class TiTeThPhiS(DarkGreyModel):
+class TiTeThRiaPhiS(DarkGreyModel):
     '''
-    A DarkGrey Model representing a TiTeThPhiS RC-equivalent circuit
+    A DarkGrey Model representing a TiTeThRiaPhiS RC-equivalent circuit
 
     Notes
     -----
